@@ -41,7 +41,7 @@ int main() {
     
     //  sonucun tek haneli olup olmadığını kontrol ediyoruz.
     if (toplam > 9) {
-        printf("HATA: Sonuc (%d) tek haneli olmalidir! Sistem siniri asildi.\n", toplam);
+        printf("HATA: Sonuc tek haneli olmalidir!\n", toplam);
     } else {
         printf("Sonucunuz: %d\n", toplam);
     }
